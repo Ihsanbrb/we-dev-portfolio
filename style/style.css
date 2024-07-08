@@ -36,6 +36,9 @@
 .secondary-bg{
     background-color: #fff8ff;
 }
+.text-center{
+    text-align: center;
+}
 
 /* Nav style */
 nav{
@@ -108,6 +111,10 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 
 /* resume */
 .resume-container{
@@ -122,4 +129,46 @@ main{
 }
 .experience-descriptio{
     color: #757575;
+}
+
+/* Skills Container Style */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* contact styel*/
+.contact{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 248, 243);
+    padding: 130px 230px;
+}
+
+/* footer style */
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+}
+.contact-title{
+    font-size: 35px;
+}
+.contact-colum{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea {
+    height: 50px;
+    width: 100%;
+    display: block;
+    background-color: white;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
 }
